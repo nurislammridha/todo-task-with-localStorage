@@ -16,6 +16,7 @@ export const tasksContext = createContext();
 
 
 function App() {
+  console.log('object :>> ');
   const [task, setTask] = useState([]);
   useEffect(() => {
     initializeLocalData();
